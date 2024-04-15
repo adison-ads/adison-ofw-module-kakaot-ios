@@ -9,7 +9,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "KakaoTOfwModule",
-            targets: ["KakaoTOfwModule"]),
+            targets: ["KakaoTOfwModule", "KakaoTOfwModuleTarget"]),
     ],
     dependencies: [
         .package(url: "https://github.com/adison-ads/adison-offerwall-ios-sdk", exact: "3.5.0")
