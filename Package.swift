@@ -19,7 +19,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "KakaoTOfwModule",
-            url: "https://github.com/adison-ads/adison-ofw-module-kakaot-ios/release/download/0.10.0/KakaoTOfwModule.zip",
+            url: "https://github.com/adison-ads/adison-ofw-module-kakaot-ios/releases/download/0.10.0/KakaoTOfwModule.zip",
             checksum: "1e59abe314ce432f3bc0aef9dcf739026e8f46e4ed53f822dd73310ffbf26271"
         ),
         .target(
