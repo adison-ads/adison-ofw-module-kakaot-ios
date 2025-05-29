@@ -12,15 +12,15 @@ let package = Package(
             targets: ["KakaoTOfwModule", "KakaoTOfwModuleTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/adison-ads/adison-offerwall-ios-sdk", exact: "3.14.0")
+        .package(url: "https://github.com/adison-ads/adison-offerwall-ios-sdk", exact: "3.14.2")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "KakaoTOfwModule",
-            url: "https://github.com/adison-ads/adison-ofw-module-kakaot-ios/releases/download/0.12.0/KakaoTOfwModule.zip",
-            checksum: "349d4dcb385022db87045ca795a0f04080832e7a09d13ebaba9ca566cb29f2f8"
+            url: "https://github.com/adison-ads/adison-ofw-module-kakaot-ios/releases/download/0.12.2/KakaoTOfwModule.zip",
+            checksum: "404bac4c37690a08b8dd6c0a7ce2abe7e342bc4e37b50e348650c8ea89dca2b4"
         ),
         .target(
             name: "KakaoTOfwModuleTarget",
